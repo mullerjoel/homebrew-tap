@@ -4,29 +4,29 @@ cask "pdate" do
 
   on_macos do
     on_intel do
-      sha256 "798572dfe0d6515e35e60b51b8d3c9875d273206fc6d9e2797dfd75fca2d2223"
+      sha256 "1c55f943e48ffad8b9fe46459b95315d0c9574b6583cca8a9d0b562c7c01151c"
       url "https://github.com/mullerjoel/pdate/releases/download/v#{version}/pdate_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "0da90d09c94f6baff1e6499b20b8641704533dd4efa20ba9478f62aed1586fd5"
+      sha256 "a63c7b2f48de4d038ce51a036d2160ba8ae78835a51da516f7103f28d64ae017"
       url "https://github.com/mullerjoel/pdate/releases/download/v#{version}/pdate_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "bcd9f5fbdd9478d153215cfd2ff2024361e2a4c025fcfc1b7bc0e0860885bd28"
+      sha256 "dc0916e7a49bd4c2de2f8c32f3a53bd3881b14398bc6c79fe38a5f2ae8378086"
       url "https://github.com/mullerjoel/pdate/releases/download/v#{version}/pdate_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "5bbe99d6d28f75449c8a87df5a04ad9cade3b31cdc162ccfb5b902f040e28320"
+      sha256 "00945b8d2621f5e6da958f055a62e0fb6f1706a4b0839b1dda5d48e47b6d086b"
       url "https://github.com/mullerjoel/pdate/releases/download/v#{version}/pdate_#{version}_linux_arm64.tar.gz"
     end
   end
 
   name "pdate"
   desc "Cli tool to print sequence of dates"
-  homepage "https://github.com/joel-muller/pdate"
+  homepage "https://github.com/mullerjoel/pdate"
 
   livecheck do
     skip "Auto-generated on release."
