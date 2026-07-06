@@ -4,22 +4,22 @@ cask "pdate" do
 
   on_macos do
     on_intel do
-      sha256 "1c55f943e48ffad8b9fe46459b95315d0c9574b6583cca8a9d0b562c7c01151c"
+      sha256 "0929a1f6c88609fc726bc4bbdedb50354c3adf9827d2607df9b35adad385a199"
       url "https://github.com/mullerjoel/pdate/releases/download/v#{version}/pdate_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "a63c7b2f48de4d038ce51a036d2160ba8ae78835a51da516f7103f28d64ae017"
+      sha256 "099ddf100bbd850c0682f5ade16af01a37cf85ae975fa23112b4be82e1033565"
       url "https://github.com/mullerjoel/pdate/releases/download/v#{version}/pdate_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "dc0916e7a49bd4c2de2f8c32f3a53bd3881b14398bc6c79fe38a5f2ae8378086"
+      sha256 "d28e794c78b3af3da4254652896ab4130b391e583504c23e0ffce8af646fb5b3"
       url "https://github.com/mullerjoel/pdate/releases/download/v#{version}/pdate_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "00945b8d2621f5e6da958f055a62e0fb6f1706a4b0839b1dda5d48e47b6d086b"
+      sha256 "0cf99af6afef4ae73334d1b27961d1a7c7c133e54c86390bba7461c6a2ee31f5"
       url "https://github.com/mullerjoel/pdate/releases/download/v#{version}/pdate_#{version}_linux_arm64.tar.gz"
     end
   end
